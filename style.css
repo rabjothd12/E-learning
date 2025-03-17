@@ -56,7 +56,7 @@ nav a:hover {
 
 .search-bar {
     padding: 8px;
-    border: 10px;
+    border: 2px solid #ccc; /* Updated border */
     border-radius: 5px;
     width: 200px; 
 }
@@ -111,22 +111,18 @@ blockquote {
 }
 
 .course-images {
-
     display: flex; 
     justify-content: space-around; 
     flex-wrap: wrap; 
     margin-top: 20px; 
-
 }
 
 .course-image {
-
     width: 300px; 
     height: 170px; 
     object-fit: cover; 
     border-radius: 10px;
     margin: 10px; 
-
 }
 
 @media(max-width: 768px) {
@@ -169,3 +165,20 @@ blockquote {
         height: auto; /* Maintain aspect ratio */
     }
 }
+
+@media(max-width: 480px) {
+    .navbar {
+        padding: 0 10px; /* Reduce padding on smaller screens */
+    }
+
+    nav a {
+        margin-top: 5px; /* Reduce top margin for nav items */
+    }
+
+    .search-bar {
+        width: 100%; /* Full width for search bar */
+    }
+
+    .search-button {
+        width: 100%; /* Full width for search button */
+        margin-left: 0
