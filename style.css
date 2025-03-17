@@ -159,6 +159,10 @@ blockquote {
         margin-bottom: 10px; /* Add space below search bar */
     }
 
+    .course-images {
+        justify-content: center; /* Center course images on smaller screens */
+    }
+
     .course-image {
         width: 100%; /* Make course images full width */
         max-width: 300px; /* Limit max width */
